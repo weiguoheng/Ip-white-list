@@ -1,5 +1,5 @@
 <?php
-class IpWhiteListCommand extends CConsoleCommand
+class IpWhiteListCommand
 {
     public function run($args){
         $result = $this->inWhiteList($args[0]);
